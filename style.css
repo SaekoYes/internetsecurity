@@ -1,5 +1,5 @@
 body {
-    background-image: url('Bluered.png');
+    background-image: url('');
     background-color: #999999;
     text-align: center;
   }
@@ -34,3 +34,9 @@ body {
     color: #ffffff;
     text-align: center;
   }
+
+  img {
+    float: left;
+    margin-right: 10px;
+  }
+  
