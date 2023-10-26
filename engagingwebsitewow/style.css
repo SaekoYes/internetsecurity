@@ -48,14 +48,26 @@ img {
   height: auto;
 }
 body {
-    background-color: #a5a5a5;
-    color: #FFFFFF;
-    font-family: Arial, sans-serif;
-  }
-  a {
-    color: #FFD700;
-    text-decoration: none;
-  }
-  a:hover {
-    color: #FFA500;
-  }
+  background-image: url('/images/360_F_189610906_zwAmM9375UK5kZQUqmhGVcWAGtZAooNe.jpg');
+  background-color: #999999;
+  text-align: center;
+}
+ /* unvisited link */
+ a:link {
+  color: rgb(204, 124, 124);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(255, 0, 128);
+}
+
+/* selected link */
+a:active {
+  color: rgb(255, 255, 255);
+} 
