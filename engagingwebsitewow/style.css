@@ -4,6 +4,12 @@ h1 {
     color: #ffffff;
     text-align: center;
   }
+  h2 {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+  }
   
   p {
     font-family: Arial, sans-serif;
