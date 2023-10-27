@@ -1,48 +1,54 @@
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('/font/opendyslexic-regular-webfont.woff2') format('woff2'),
+       url('/font/opendyslexic-regular-webfont.woff') format('woff');
+}
+
+* {
+  font-family: 'OpenDyslexic', fallback, sans-serif;
+}
+
 body {
-    background-image: url('images/360_F_189610906_zwAmM9375UK5kZQUqmhGVcWAGtZAooNe.jpg');
-    background-color: #999999;
-    text-align: center;
-  }
+  background-image: url('images/360_F_189610906_zwAmM9375UK5kZQUqmhGVcWAGtZAooNe.jpg');
+  background-color: #999999;
+  text-align: center;
+}
 
-  .highlighted {
-    background-color: rgb(96, 143, 133);
-  }
-  
-  h1 {
-    font-family: Arial, sans-serif;
-    font-size: 30px;
-    color: #ffffff;
-    text-align: center;
-  }
-  h2 {
-    font-family: Arial, sans-serif;
-    font-size: 30px;
-    color: #ffffff;
-    text-align: center;
-  }
-  
-  p {
-    font-family: Arial, sans-serif;
-    font-size: 30px;
-    color: #ffffff;
-    text-align: center;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding-left: 20px;
-    text-align: center;
-  }
-  
-  li {
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-  }
+.highlighted {
+  background-color: rgb(96, 143, 133);
+}
 
-  img {
-    float: left;
-    margin-right: 10px;
-  }
-  
+h1 {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+p {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+  text-align: center;
+}
+
+li {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+img {
+  float: left;
+  margin-right: 10px;
+}

@@ -1,36 +1,49 @@
-h1 {
-    font-family: Arial, sans-serif;
-    font-size: 30px;
-    color: #ffffff;
-    text-align: center;
-  }
-  h2 {
-    font-family: Arial, sans-serif;
-    font-size: 30px;
-    color: #ffffff;
-    text-align: center;
-  }
-  
-  p {
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding-left: 20px;
-    text-align: center;
-  }
-  
-  li {
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-  }
+/* OpenDyslexic font family */
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('/font/opendyslexic-regular-webfont.woff2') format('woff2'),
+       url('/font/opendyslexic-regular-webfont.woff') format('woff');
+}
 
+/* Headings */
+h1 {
+  font-family: OpenDyslexic, sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+h2 {
+  font-family: OpenDyslexic, sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Paragraphs */
+p {
+  font-family: OpenDyslexic, sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Lists */
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+  text-align: center;
+}
+
+li {
+  font-family: OpenDyslexic, sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Images */
 .image-container {
   float: right;
   width: 30%;
@@ -41,39 +54,31 @@ h1 {
   width: 70%;
 }
 
-ul {
-  padding-left: 20px;
-}
-
-li {
-  margin-bottom: 10px;
-}
-
 img {
   max-width: auto;
   height: auto;
 }
+
+/* Body */
 body {
   background-image: url('/images/360_F_189610906_zwAmM9375UK5kZQUqmhGVcWAGtZAooNe.jpg');
   background-color: #999999;
   text-align: center;
 }
- /* unvisited link */
- a:link {
+
+/* Links */
+a:link {
   color: rgb(204, 124, 124);
 }
 
-/* visited link */
 a:visited {
   color: rgb(255, 255, 255);
 }
 
-/* mouse over link */
 a:hover {
   color: rgb(255, 0, 128);
 }
 
-/* selected link */
 a:active {
   color: rgb(255, 255, 255);
-} 
+}
