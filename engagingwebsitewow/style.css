@@ -65,20 +65,3 @@ body {
   background-color: #999999;
   text-align: center;
 }
-
-/* Links */
-a:link {
-  color: rgb(204, 124, 124);
-}
-
-a:visited {
-  color: rgb(255, 255, 255);
-}
-
-a:hover {
-  color: rgb(255, 0, 128);
-}
-
-a:active {
-  color: rgb(255, 255, 255);
-}
